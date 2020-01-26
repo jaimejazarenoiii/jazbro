@@ -1,0 +1,11 @@
+$space-sizes: 8, 16, 24, 32, 40;
+
+@each $space-size in $space-sizes {
+  .pd-#{$space-size} {
+    padding: #{$space-size}px;
+  }
+
+  .mg-#{$space-size} {
+    margin: #{$space-size}px;
+  }
+}
